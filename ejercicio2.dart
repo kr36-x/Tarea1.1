@@ -28,7 +28,7 @@ void main() {
     });
 
     return contador == 1;
-  });
+  }).toList();
 
   print(elementosUnicos);
 }
